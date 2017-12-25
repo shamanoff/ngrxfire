@@ -7,7 +7,6 @@ export const RESET = 'Reset';
 
 export class EditText implements Action {
   readonly type = EDIT_TEXT;
-
   constructor(public payload: string) {
   }
 }
